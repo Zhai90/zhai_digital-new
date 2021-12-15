@@ -103,7 +103,7 @@ header {
 }
 
 .ht {
-  padding-top: 27.5vh;
+  padding-top: 26.5vh;
   font-size: 6rem;
   animation: flicker 1.5s infinite alternate;
   line-height: 2.5rem;
@@ -115,7 +115,7 @@ header {
 }
 
 .hst1 {
-  color: #1;
+  color: #169168;
   animation: flicker 1.5s infinite alternate;
 }
 
