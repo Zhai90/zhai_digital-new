@@ -44,3 +44,7 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+function up () {
+  document.querySelector(".up").scrollIntoView();
+}

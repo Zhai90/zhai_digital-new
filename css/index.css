@@ -11,6 +11,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -22,6 +23,7 @@ body {
 body {
   font-family: "ZCOOL XiaoWei", "Open-Sans", sans-serif;
   line-height: 1.5;
+  background-color: rgba(0, 0, 0, .95);
 }
 
 img,
@@ -71,7 +73,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .75);
 }
 
 nav .nav-item-container {
@@ -90,6 +92,8 @@ nav .nav-brand {
   padding-left: 20px;
 }
 
+nav nab
+
 /** Header Styles **/
 
 header {
@@ -102,7 +106,7 @@ header {
   padding-top: 26.5vh;
   font-size: 6rem;
   animation: flicker 1.5s infinite alternate;
-  line-height: 2.5rem;
+  line-height: 2.75rem;
   color: #1bb380;
 }
 
