@@ -48,3 +48,6 @@ $(function () {
 function up () {
   document.querySelector(".up").scrollIntoView();
 }
+function aj () {
+  document.querySelector(".at").scrollIntoView();
+}

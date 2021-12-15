@@ -78,7 +78,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 nav .nav-item-container {
@@ -163,4 +163,8 @@ section.about {
     rgba(180, 58, 62, 1) 0%,
     rgba(225, 252, 69, 1) 100%
   );
+}
+section.about .at {
+  font-size: 2.75rem;
+  padding-top: 40px;
 }
