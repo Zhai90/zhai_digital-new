@@ -155,7 +155,7 @@ header {
 /** About Section **/
 
 section.about {
-  height: 85vh;
+  height: 57.5vh;
   margin-top: 9.4vh;
   background: rgb(180, 58, 62);
   background: linear-gradient(
@@ -166,7 +166,7 @@ section.about {
 }
 section.about .at {
   color: #e29100;
-  font-size: 2.75rem;
+  font-size: 3rem;
   padding-top: 40px;
   animation: af 1.5s infinite alternate;
 }
@@ -194,5 +194,7 @@ section.about .at {
 }
 
 .ap {
+  color: #734a00;
+  font-size: 1.75rem;
   width: 80%;
 }
