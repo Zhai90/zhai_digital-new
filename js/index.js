@@ -49,5 +49,17 @@ function up () {
   document.querySelector(".up").scrollIntoView();
 }
 function aj () {
-  document.querySelector(".at").scrollIntoView();
+  document.querySelector(".about").scrollIntoView();
+}
+function pj () {
+  document.querySelector(".pt").scrollIntoView();
+}
+function sfs () {
+  window.open('https://sfs-website.glitch.me', '_blank');
+}
+function cca () {
+  window.open('https://zhai90.github.io/climate_change/', '_blank');
+}
+function cw () {
+  window.open('https://complementary.netlify.app/', '_blank');
 }

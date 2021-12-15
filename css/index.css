@@ -54,6 +54,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 99999;
 }
 
 .shadow {
@@ -155,7 +156,7 @@ header {
 /** About Section **/
 
 section.about {
-  height: 65vh;
+  height: 60vh;
   margin-top: 9.4vh;
   background: rgb(180, 58, 62);
   background: linear-gradient(
@@ -179,8 +180,8 @@ section.about .at {
   53%,
   57%,
   100% {
-    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #d9ff00,
-      0 0 80px #d9ff00, 0 0 90px #d9ff00, 0 0 100px #d9ff00, 0 0 150px #d9ff00;
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #e29822,
+      0 0 80px #e29822, 0 0 90px #e29822, 0 0 100px #e29822, 0 0 150px #e29822;
   }
   20%,
   24%,
@@ -206,8 +207,90 @@ section.project {
   height: 85vh;
   background: rgb(58, 161, 180);
   background: linear-gradient(
-    354deg,
+    189deg,
     rgba(58, 161, 180, 1) 0%,
     rgba(255, 0, 223, 1) 100%
   );
+}
+
+section.project .pt {
+  color:rgb(123, 77, 184);
+  font-size: 3rem;
+  padding-top: 40px;
+  animation: pf 1.5s infinite alternate;
+}
+
+section.project .p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;;
+}
+
+@keyframes pf {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bd36b6,
+      0 0 80px #bd36b6, 0 0 90px #bd36b6, 0 0 100px #bd36b6, 0 0 150px #bd36b6;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+/** Cards **/
+
+.card-body {
+  background-color: rgba(0, 0, 0, .2);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.card-body:hover,
+.card-body:focus-visible,
+.card-body:active {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.card-img img {
+  border-radius: 10px;
+  transition: all .5s;
+}
+
+.card-body:hover img,
+.card-body:focus-visible img,
+.card-body:active img {
+  transform: translateY(-2px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.card-body:hover .card-btn,
+.card-body:focus-visible .card-btn,
+.card-body:active .card-btn {
+  text-decoration: underline;
+}
+
+.card-title {
+  padding: 15px;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.card-about {
+  font-size: 1.15rem;
+}
+
+.card-btn {
+  padding: 15px 0 5px 0;
 }
