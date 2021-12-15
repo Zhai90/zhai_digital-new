@@ -121,7 +121,7 @@ header {
 .ht {
   padding-top: 26.5vh;
   font-size: 6rem;
-  animation: flicker 1.5s infinite alternate;
+  animation: hf 1.5s infinite alternate;
   line-height: 2.75rem;
   color: #1bb380;
 }
@@ -132,10 +132,10 @@ header {
 
 .hst1 {
   color: #169168;
-  animation: flicker 1.5s infinite alternate;
+  animation: hf 1.5s infinite alternate;
 }
 
-@keyframes flicker {
+@keyframes hf {
   0%,
   18%,
   22%,
@@ -165,6 +165,34 @@ section.about {
   );
 }
 section.about .at {
+  color: #e29100;
   font-size: 2.75rem;
   padding-top: 40px;
+  animation: af 1.5s infinite alternate;
+}
+
+@keyframes af {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #d9ff00,
+      0 0 80px #d9ff00, 0 0 90px #d9ff00, 0 0 100px #d9ff00, 0 0 150px #d9ff00;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.apc {
+  padding-top: 30px;
+}
+
+.ap {
+  width: 80%;
 }
