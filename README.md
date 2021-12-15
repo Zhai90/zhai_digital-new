@@ -14,7 +14,7 @@ This is a basic static HTML starter project you can build on however you like. N
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-## You built this with Glitch!
+## You built this with Glitch! no I didn't I just copied the code over to vscode cmon glitch
 
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
