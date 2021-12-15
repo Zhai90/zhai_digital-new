@@ -23,7 +23,7 @@ body {
 body {
   font-family: "ZCOOL XiaoWei", "Open-Sans", sans-serif;
   line-height: 1.5;
-  background-color: rgba(0, 0, 0, .95);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 img,
@@ -37,7 +37,6 @@ video {
   position: absolute;
   top: 0;
 }
-
 
 /** Classes **/
 
@@ -75,11 +74,11 @@ nav {
   background-color: black;
   align-items: center;
   width: 100%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 nav.scrolled {
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 nav .nav-item-container {
@@ -101,7 +100,7 @@ nav .nav-brand {
 
 nav .nav-item b {
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 nav .nav-item b:hover,
@@ -152,4 +151,16 @@ header {
   55% {
     text-shadow: none;
   }
+}
+/** About Section **/
+
+section.about {
+  height: 85vh;
+  margin-top: 9.4vh;
+  background: rgb(180, 58, 62);
+  background: linear-gradient(
+    354deg,
+    rgba(180, 58, 62, 1) 0%,
+    rgba(225, 252, 69, 1) 100%
+  );
 }
