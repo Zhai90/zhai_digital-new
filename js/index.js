@@ -54,6 +54,9 @@ function aj () {
 function pj () {
   document.querySelector(".pt").scrollIntoView();
 }
+function cj () {
+  document.querySelector(".contact").scrollIntoView();
+}
 function sfs () {
   window.open('https://sfs-website.glitch.me', '_blank');
 }
