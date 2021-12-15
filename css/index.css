@@ -58,17 +58,19 @@ video {
 
 /** Header Styles **/
 
+header {
+  max-height: 100%;
+}
+
 .ht {
+  padding-top: 22.5vh;
   font-size: 5rem;
-  text-shadow: 
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+  animation: flicker 1.5s infinite alternate;
+  line-height: 2.5rem;
+}
+
+.ht i {
+  font-size: 2rem;
 }
 
 @keyframes flicker {
