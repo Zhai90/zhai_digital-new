@@ -37,3 +37,10 @@ nanobar.go(76); // size bar 76%
 nanobar.go(100);
 
 console.log("Hello, world!");
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $("nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
