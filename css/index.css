@@ -20,7 +20,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "ZCOOL XiaoWei", 'Open-Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -52,48 +52,71 @@ video {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
-.cnfont {
-  font-family: "ZCOOL XiaoWei", sans-serif !important;
+.osfont {
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 /** Header Styles **/
 
 header {
   height: 85vh;
+  background: linear-gradient(338deg, #833ab4, #45fca0);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
   max-height: 100%;
-  background: rgb(131, 58, 180);
-  background: -moz-linear-gradient(
-    146deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(69, 252, 160, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    146deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(69, 252, 160, 1) 100%
-  );
-  background: linear-gradient(
-    146deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(69, 252, 160, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#45fca0",GradientType=1);
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
 }
 
 .ht {
   padding-top: 27.5vh;
-  font-size: 5rem;
+  font-size: 6rem;
   animation: flicker 1.5s infinite alternate;
   line-height: 2.5rem;
   color: #1bb380;
 }
 
 .ht i {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .hst1 {
-  color: #0f573f;
+  color: #1;
+  animation: flicker 1.5s infinite alternate;
 }
 
 @keyframes flicker {
