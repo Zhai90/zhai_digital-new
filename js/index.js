@@ -49,10 +49,10 @@ function up () {
   document.querySelector(".up").scrollIntoView();
 }
 function aj () {
-  document.querySelector(".about").scrollIntoView();
+  document.querySelector(".abt").scrollIntoView();
 }
 function pj () {
-  document.querySelector(".pt").scrollIntoView();
+  document.querySelector(".pro").scrollIntoView();
 }
 function cj () {
   document.querySelector(".contact").scrollIntoView();
